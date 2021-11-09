@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+	float s=10000;
+	float a=s*12;
+	
+	cout<<"You owe:"<<s*0.25<<" in taxes to the government this month"<<endl;
+	cout<<"Your net salary after taxes will be:"<<a*0.25<<endl;
+return 0;	
+}
