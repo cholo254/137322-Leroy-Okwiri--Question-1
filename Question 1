@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+	int r;
+	int h;
+	double pie= 3.141592;
+	char a;
+	char v;
+	
+	cout<<"Please key in radius: "<<endl;
+	cin>>r;
+	cout<<"Please key in your height: "<<endl;
+	cin>>h;
+	
+	if(r>0 && h>0){
+		cout<<"Please choose which calculation you want to perform."<<endl;
+		cout<<"Your Area is: "<<2*pie*r*h+2*pie*r*r<<endl;
+		cout<<"Your Volume is: "<<pie*r*r*h<<endl;
+		}
+	else{
+		cout<<"invalid input";
+	}
+	return 0;
+}
