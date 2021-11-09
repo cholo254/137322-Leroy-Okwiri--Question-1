@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+	double a;
+	
+	cout<<"Please key in the integer: "<<endl;
+	cin>>a;
+	if(a>0){
+		cout<<"The temprature in Celsius is: "<<a-32*5/9;
+	}
+	else{
+		cout<<"invalid output"<<endl;
+	}
+	return 0;
+}
